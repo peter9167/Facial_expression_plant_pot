@@ -73,7 +73,7 @@ void timerIsr(){
 void Dote_face(int soil){
   int i;
   
-  if(soil >= 700){
+  if(soil >= 800){
     for (i = 0; i <8; i++)                            // j는 미리 제작한 비트맵의 y축 8비트 신호를 하나씩 보낸다
     {
       Dote.setRow(0, i, digits[2][i]);           // setRow는 x축 LED를 한번에 제어하며,
